@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cardListFragment">
+
+    <fragment
+        android:id="@+id/cardListFragment"
+        android:name="com.example.businesscardexchange.CardListFragment"
+        android:label="Card List" />
+
+    <fragment
+        android:id="@+id/cardEditFragment"
+        android:name="com.example.businesscardexchange.CardEditFragment"
+        android:label="Card Edit" />
+
+</navigation>
